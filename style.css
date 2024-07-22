@@ -1,0 +1,213 @@
+/*USER FRIENDLY TO DO LIST WEB APP - CSS FILE*/
+
+
+*{
+  margin:0;
+  padding:0;
+ box-sizing:border-box;
+ font-family: "poppins",sans-serif;
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+   text-align: center;
+}
+
+h1{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+    
+    font-style: italic;
+    margin-top: 20px;
+    color:lightblue;
+    font-weight:800px;
+}
+
+
+body{
+    align-items:center;
+    min-height:100vh;
+    background-image: url("https://img.freepik.com/premium-photo/flowers-frame_853558-41870.jpg");
+     margin-right: 15%;
+     margin-top: 3%;
+     background-repeat: no-repeat;
+     background-size: 40cm 20cm;
+    }
+    
+img{
+    margin-top: 1cm;
+    margin-left: 7cm;
+    border-radius: 20px;
+   inset:10px 10px 10px grey ;
+   width:200px;
+   height: auto;
+}
+
+.box{
+    
+    position:relative;
+    width:450px;
+    margin-left: 20px;
+    height:550px;
+    border-radius: 30px;
+    padding: 30px 50px;
+    
+    box-shadow: 25px 25px 10px rgba(0,0,0,0.25),
+        10px 10px 70px rgba(0,0 , 0, 0.25),
+        inset 5px 5px 10px rgba(0,0,0,0.25),
+        inset 5px 5px 20px rgba(0,0,0,0.25),
+        inset -5px -5px 15px rgba(22, 21, 21, 0.2);
+}
+h2{
+width: 100%;
+font-weight:600;
+text-align: center;
+color:pink;
+font-size: 1.75em;
+font-weight:700px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30px;
+    font-style: italic;
+    margin-top: 10px;
+    color:lightblue;
+    font-weight:800px;
+    
+}
+#inputBx{
+    position: relative;
+    width: 100%;
+    border:none;
+    outline:none;
+    padding: 15px 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    border-radius:30px;
+    box-shadow:5px 5px 7px  rgba(0,0,0,0.25),inset 2px 2px 5px 
+    rgba(0,0,0,0.5),inset -3px -3px 5px rgba(0,0,0,0.5),inset -3px -3px 5px rgma(0,0,0,0.5);
+
+}
+.box li 
+{
+    position:relative;
+    width:calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    background:#1f83f2;
+    margin:15px 0;
+    padding:10px 10px 10px 45px;
+    min-height:45px;
+    cursor:pointer;
+    border-radius: 22.5px;
+    color:white;
+    box-shadow:5px 5px 7px  rgba(0,0,0,0.25),inset 2px 2px 5px 
+    rgba(0,0,0,0.5),inset -3px -3px 5px rgba(0,0,0,0.5);
+
+}
+
+.box li i {
+    position: absolute;
+    right: -40px;
+    width: 30px;
+    height: 30px;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #ff2c74;
+    border-radius: 50%;
+    box-shadow:5px 5px 7px  rgba(0,0,0,0.25),inset 2px 2px 5px 
+    rgba(255,255,255,0.25),inset -3px -3px 5px rgba(0,0,0,0.5);
+    
+
+}
+.box li i::before{
+    content:"";
+    position:absolute;
+    width:15px;
+    height:2px;
+    background:#fff;
+    transform:rotate(45deg);
+}
+
+.box li i::after{
+ 
+    content:"";
+    position:absolute;
+    
+    width:15px;
+    height:2px;
+    background:#fff;
+    transform: rotate(-45deg);
+}
+.box li::before{
+
+    content: "";
+    position: absolute;
+    left: 8px;
+    width: 30px;
+    height: 30px;
+    background:#2f363e ;
+    border-radius: 50%;
+}
+
+.box li.done
+{
+    background-color:#607d8b;
+}
+.box li.done:after{
+content:"";
+position: absolute;
+left: 15px;
+width: 12px;
+height: 6px;
+border-left: 2px solid#fff;
+border-bottom: 2px solid#fff;
+transform:rotate(315deg) ;
+}
+
+#list{
+    position:relative;
+    margin-top: 20px;
+    height:350px;
+    overflow-y:auto;
+    padding-right:10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow:inset 0 0 15px rgba(0,0,0,0.5)
+}
+::-webkit-scrollbar{
+    width: 5px;
+
+}
+  ::-webkit-scrollbar-thumb{
+  background:#fff;
+}
+
+   .backimage{
+       
+        width:550px;
+        height:560px;
+        padding-top: 40px;
+        
+        text-align: center;
+        background-size: 400px 400px;
+        box-shadow: 25px 25px 10px rgba(0,0,0,0.25),
+        10px 10px 70px rgba(0,0 , 0, 0.25),
+        inset 5px 5px 10px rgba(0,0,0,0.25),
+        inset 5px 5px 20px rgba(0,0,0,0.25),
+        inset -5px -5px 15px rgba(22, 21, 21, 0.2);
+        border-radius: 30px;
+        background-repeat: no-repeat;
+        border-color: 2px #1f83f2;
+        margin-left:5%;        
+
+}
+.textclass{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+    
