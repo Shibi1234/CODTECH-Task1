@@ -42,10 +42,16 @@ Users can add and delete tasks as needed.
 
 
 
+![before-writing-text](https://github.com/user-attachments/assets/0016b364-d9f7-420b-af63-d6b7d15eb7ee)
 
 
 
-![Uploading before-writing-  text.png…]()
+
+
+
+
+
+
 
 
 
