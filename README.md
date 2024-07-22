@@ -1,4 +1,4 @@
-![startingpage](https://github.com/user-attachments/assets/5cfb3771-c7a9-4f92-b90f-da39e994af28)# CODTECH-Task1
+# CODTECH-Task1
 **NAME**    : SHIBIYA CHRISTY L
 **COMPANY** : CODTECH IT SOLUTION 
 **ID**      : CT4WD4375
@@ -37,7 +37,16 @@ Users can add and delete tasks as needed.
 - Implement a filter to show completed and pending tasks.
 
 
-
-
-
 ![startingpage](https://github.com/user-attachments/assets/6700316c-bd75-4240-a64c-910798c41ca4)
+
+
+
+![Uploading before-writing-  text.png…]()
+
+
+
+
+
+
+
+
