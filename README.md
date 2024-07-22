@@ -1,4 +1,4 @@
-# CODTECH-Task1
+![uploadimgwrite](https://github.com/user-attachments/assets/ee2765d4-6e61-4a40-9aa4-f3d2554ca529)# CODTECH-Task1
 **NAME**    : SHIBIYA CHRISTY L
 **COMPANY** : CODTECH IT SOLUTION 
 **ID**      : CT4WD4375
@@ -44,6 +44,8 @@ Users can add and delete tasks as needed.
 
 ![before-writing-text](https://github.com/user-attachments/assets/0016b364-d9f7-420b-af63-d6b7d15eb7ee)
 
+
+![Uploading After writing an text.png…]()
 
 
 
