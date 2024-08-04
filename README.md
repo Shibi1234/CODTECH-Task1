@@ -12,6 +12,7 @@
 **MENTOR**  : MUZAMMIL AHMED
 
 ### OVERVIEW OF THE PROJECT##
+Developed a dynamic and user-friendly To-Do List web application to help users efficiently manage their daily tasks. The application offers features such as task creation, editing, deletion, categorization, and prioritization. Emphasized simplicity and ease of use in both design and functionality.
 
 ### PROJECT: TO DO LIST WEB APP USING HTML,CSS,JAVASCRIPT
 
